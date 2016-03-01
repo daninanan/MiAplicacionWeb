@@ -9,7 +9,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Registro de Usuarios</title>
     </head>
     <body>
        <form action="ServletAplicacion" method="POST">
@@ -22,8 +22,8 @@
             <input type="submit" value="Consultar"/>
             
         </form>
-            <form action="ServletAplicacion" method="POST">
-            <input type="submit" value="Eliminar"/>
+         <form>
+        <a href="pruebajsp.jsp">Eliminar registros...</a>
         </form>
     </body>
 </html>

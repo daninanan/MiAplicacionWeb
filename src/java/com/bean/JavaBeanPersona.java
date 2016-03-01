@@ -35,6 +35,6 @@ public class JavaBeanPersona {
         return personaControl.findPersonaEntities();
     }
     
-    
+
     
 }

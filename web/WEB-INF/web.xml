@@ -4,9 +4,17 @@
         <servlet-name>MiServlet</servlet-name>
         <servlet-class>com.servlet.MiServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>PruebaServlet</servlet-name>
+        <servlet-class>com.ServletEliminarUsuarios.ServletEliminarUsuarios</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>MiServlet</servlet-name>
         <url-pattern>/ServletAplicacion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PruebaServlet</servlet-name>
+        <url-pattern>/PruebaServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
